@@ -5,11 +5,15 @@ export const Container = styled.div`
   width:100%;
   height:100%;
   background:  linear-gradient(to right top, #c81912, #240b36);
+ 
 `;
 
 export const Form = styled.form`
   box-sizing: content-box;
   padding:3rem 20rem 0rem 20rem;
+  @media screen and ( max-width: 768px){
+    padding:0 20%;
+  }
 `;
 export const FormGroup = styled.div`
   display: flex;

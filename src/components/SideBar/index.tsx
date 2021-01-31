@@ -58,6 +58,11 @@ const SideBar: React.FC = () => {
                 <span> < GiSittingDog />Calculo Dog</span>
               </Link>
             </li>
+            <li className="nav-text">
+              <Link href="/Calorias">
+                <span> <AiIcons.AiFillThunderbolt />Calculo De Calorias</span>
+              </Link>
+            </li>
 
 
           </ul>

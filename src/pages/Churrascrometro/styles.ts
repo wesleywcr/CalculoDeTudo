@@ -141,6 +141,8 @@ section label span{
 `;
 export const Result = styled.div`
   margin-bottom: 20px;
+  border-radius:8px;
+  padding:0 20% 2%;
 `;
 
 export const ResultContainer = styled.div`

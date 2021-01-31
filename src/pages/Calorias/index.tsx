@@ -3,7 +3,12 @@ import Button from '../../components/Button/Button';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 
-import { Container, Form, FormGroup, Label, Input, Result, ResultContainer, ResultContent, Select } from './styles';
+import {
+  Container, Form, FormGroup,
+  Label, Input, Result, ResultContainer,
+  ResultContent, Select
+}
+  from './styles';
 
 const Calorias: React.FC = () => {
 
