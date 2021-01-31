@@ -31,6 +31,9 @@ const Header: React.FC = () => {
         <Link href="/Imc">
           <a>IMC</a>
         </Link>
+        <Link href="/Calorias">
+          <a>CalCalorias</a>
+        </Link>
         {/* <NavBtn>
           <Link href="">
             <a className="button">Sobre</a>
