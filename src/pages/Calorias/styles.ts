@@ -1,22 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
- width: 550px;
-  margin: 0 auto;
+    margin:0;
+  width:100%;
+  height:100%;
+  background:  linear-gradient(to right top, #c81912, #240b36);
 `;
+
 export const Form = styled.form`
   box-sizing: content-box;
+  padding:3rem 20rem 0rem 20rem;
 `;
-
-
-export const Header = styled.div`
-  width: 100%;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 export const FormGroup = styled.div`
   display: flex;
   flex-direction: column;
@@ -67,6 +61,7 @@ export const Select = styled.select`
 
 export const Result = styled.div`
   margin-bottom: 20px;
+  padding:0 20%;
 `;
 
 export const ResultContainer = styled.div`
