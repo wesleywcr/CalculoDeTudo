@@ -26,8 +26,8 @@ input[type=number]::-webkit-inner-spin-button {
     height: 5.6rem;
     margin-top: 0.8rem;
     border-radius: 0.8rem;
-    background:  #1a1a1a;
-    color:white;
+    background:  #FFF;
+    color:#1a1a1a;
     border: 1px solid ${props => props.theme.colors.primaryLight};
     outline: 0;
     padding: 0 1.6rem;
