@@ -32,7 +32,7 @@ const Header: React.FC = () => {
           <a>IMC</a>
         </Link>
         <Link href="/Calorias">
-          <a>CalCalorias</a>
+          <a>Calorias</a>
         </Link>
         {/* <NavBtn>
           <Link href="">
