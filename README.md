@@ -57,7 +57,7 @@ $ git clone https://github.com/wesleywcr/CalculoDeTudo.git
 # Install Dependencies
 $ yarn install
 # Run Web aplication
-$ yarn start
+$ yarn dev
 
 
 ```
